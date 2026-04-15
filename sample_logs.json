@@ -1,0 +1,7 @@
+﻿[
+  {"timestamp":"2026-04-13T10:00:00","source_ip":"192.168.1.1","event_type":"login_attempt","payload":"success"},
+  {"timestamp":"2026-04-13T10:05:00","source_ip":"10.0.0.2","event_type":"file_access","payload":"read"},
+  {"timestamp":"2026-04-13T10:10:00","source_ip":"172.16.0.5","event_type":"cmd_exec","payload":"whoami"},
+  {"timestamp":"2026-04-13T10:15:00","source_ip":"192.168.1.100","event_type":"network_conn","payload":"outbound"},
+  {"timestamp":"2026-04-13T10:20:00","source_ip":"8.8.8.8","event_type":"login_attempt","payload":"bruteforce"}
+]
