@@ -22,24 +22,21 @@
 
 ---
 
-<div align="center">
-
 ## 🎯 **What if your logs could talk?** ✨
 
-![Cyber Shield](https://img.shields.io/badge/Status-🚀%20Production%20Ready-00D084?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMTUiIHZpZXdCb3g9IjAgMCAxNSAxNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNy41IiBjeT0iNy41IiByPSI3LjUiIGZpbGw9IiMwMEQwODQiLz4KPC9zdmc+)
-</div>
+![Cyber Shield](https://img.shields.io/badge/Status-🚀%20Production%20Ready-00D084?style=for-the-badge)
 
 The **AI Cyber Defense Platform** ingests server logs, network traffic, and user activity, then uses **Isolation Forest** (machine learning) to spot anomalies – **even attacks never seen before**. Every threat gets a **risk score (0–100)**. High‑risk events trigger **instant alerts** (email/dashboard). All visualized on a **live dashboard**.
 
 ### **Perfect for:** 
-✅ **SOC analysts**  
-✅ **Security engineers**  
-✅ **DevSecOps teams**  
-✅ **Portfolio projects that impress employers** 🎯
+✅ SOC analysts  
+✅ Security engineers  
+✅ DevSecOps teams  
+✅ Portfolio projects that impress employers 🎯
 
 ---
 
-## 🏗️ **Architecture** <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footer-wide.png" height="25" />
+## 🏗️ **Architecture**
 
 ```mermaid
 flowchart TD
@@ -49,14 +46,14 @@ flowchart TD
     D --> E[🔒 Backend Services<br/>Auth · Detection · Alerts]
     E --> F[📈 Frontend Dashboard<br/>React + Chart.js]
     E --> G[🚨 Notifications<br/>Email · Webhooks]
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-    style E fill:#fce4ec
-    style F fill:#e3f2fd
-    style G fill:#ffebee
+
+    style A fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style B fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    style C fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px
+    style D fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style E fill:#fce4ec,stroke:#880e4f,stroke-width:2px
+    style F fill:#e3f2fd,stroke:#0d47a1,stroke-width:2px
+    style G fill:#ffebee,stroke:#b71c1c,stroke-width:2px
 ✨ Core Features
 Feature	Description
 🔍 Log Ingestion	Upload CSV/JSON or stream logs in real time.
@@ -97,7 +94,7 @@ npm install
 npm start
 📸 Dashboard Preview
 <div align="center"> <img src="https://via.placeholder.com/1000x500/0a2540/ffffff?text=🔥+LIVE+THREAT+MONITORING+PLATFORM+%F0%9F%9A%A8" alt="Dashboard Preview"> <br><br> <img src="https://via.placeholder.com/800x200/009688/e1f5fe?text=Risk+Trends+%C2%B7+Threat+Counts+%C2%B7+Alert+History+%C2%B7+System+Health" alt="Features"> </div>
-Replace the placeholders with actual screenshots of your running dashboard.
+Replace the placeholder images with actual screenshots of your running dashboard.
 
 🛠️ Tech Stack
 <div align="center">
@@ -132,7 +129,7 @@ text
 Pull requests welcome! For major changes, please open an issue first.
 
 📄 License
-<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4NSIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDg1IDIyIj4KPHBhdGggZmlsbD0iIzFGN0YwMCIgZD0iTTIwIDBjLTEwIDAtMjAgOC0yMCAxOGgxOFY5aDE5VjBoLTJ6bS00IDBoMTZ2MTRoMTZWMHoiLz4KPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTM2IDBoMjJ2MjJIMzZ6Ii8+CjxwYXRoIGZpbGw9IiMxRjdGNzAiIGQ9Ik0zNiAwaDJ2MjFoLTJ6Ii8+CjxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik02NCAwaDE4djloLTE4djloLTE4djE4aDIwVjBoLTJ6Ii8+CjxwYXRoIGZpbGw9IiMxRjdGNzAiIGQ9Ik02NCAwaDE4djloLTE4djloLTE4djloLTE4djloLTE4eiIvPgo8L3N2Zz4K" alt="MIT License">
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="MIT License">
 ⭐ Show your support
 If this project helped you, give it a ⭐ on GitHub – it means the world! 🌟
 
