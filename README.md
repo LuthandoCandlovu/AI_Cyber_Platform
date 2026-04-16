@@ -143,7 +143,7 @@ flowchart TD
 <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=13&duration=1800&pause=400&color=00E5CC&center=true&vCenter=true&width=750&lines=LIVE+%7C+Risk+Trends+·+Threat+Map+·+Alert+History+·+System+Health+·+Model+Confidence" />
 
 <br>
-<sub>💡 Replace with a screen-recorded GIF of your dashboard using <a href="https://www.cockos.com/licecap/">LiceCap</a></sub>
+<sub>dashboard using <a href="https://www.cockos.com/licecap/">LiceCap</a></sub>
 
 </div>
 
